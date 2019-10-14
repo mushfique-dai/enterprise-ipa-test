@@ -1,6 +1,47 @@
 <html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+        }
+
+        .container {
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .container a {
+            background: #02802e;
+            padding: 40px;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 60px;
+            font-family: sans-serif;
+            font-weight: 600;
+            letter-spacing: 3px;
+        }
+
+        .logo {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
 <body>
-<a href=”itms-services://?action=download-manifest&url=https://kind-mclean-859b86.netlify.com/manifest.plist">
-Install iOS in-house App</a>
+    <div class="container">
+        <image class="logo" src="logo512.png" />
+        <a href="itms-services://?action=download-manifest&url=https://kind-mclean-859b86.netlify.com/manifest.plist">
+            Click here to Install App</a>
+    </div>
+
 </body>
+
 </html>
